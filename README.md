@@ -1,2 +1,1 @@
-#        Air Pollution and Weather Application
-#                    (AirPoWa)
+#        Air Pollution and Weather Application (AirPoWa)
