@@ -1,0 +1,16 @@
+ WebApp UI:
+	Search city - search bar 
+	Search city - display map 
+	Get pollution data
+Weather and Pollution Service:
+	Show temperature for several days of a specific city in timeslots, and also the time
+	Show a pollution particles values of a specific city
+Admin Panel
+Admin Service:
+	Add manager account
+	Delete manager account
+Manager Panel:
+	Update weather and pollution APIs
+Database:
+	Fetch information 
+	Store information

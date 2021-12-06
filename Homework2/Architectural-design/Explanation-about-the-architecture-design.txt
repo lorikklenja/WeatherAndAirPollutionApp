@@ -1,0 +1,23 @@
+The web application that we are creating, for Weather and Pollution of different cities in Macedonia it communicates using a HTTP connection.
+We have decided to use the non-secure version of HTTP because mainly we would not transfer some that sensitive data to clients and vice-versa.
+We are using an APIs for the pollution and for the weather from which we are sending information displayed in aestetic manner to the clients,
+or in other words, we are sending information to the Web Application User Interface (UI).
+
+As shown in the pictures attached, we have defined and structured 3 main infrastructures: clients, web-server and application-server. 
+The client infrastucture wors such that, client sends an request using his/her web browser (Mozzila, Google Chromes etc.) to the web server,
+when this is recived to the web server application, we are accesing the APIs that we are using for the pollution and weather. Then the
+application is sending back to the client a response in an html,css,javascript type which displays the requested information to the client back
+at his/her web browser.
+
+So in this application, we can have the client/user to communicate with the server, such that the request of the client is sent to the managers
+of the clients in the Manager Panel. If the user is recognized from before, we can display the data that he searched for last, last time. For example:
+Client searches Skopje, and closes the application, when he starts the application once again, Skopje is shown to him as a default.
+
+Also we can have administrator - server comminucation, which means we can have the admins can communicate with server if they need to make changes or
+some updates do the application. Maybe some outdate information is stored to the application, and we do not want that, so the admin will make the
+necessary changes, through this communication.
+
+The conceptual architecture as it is represent a nice way of layered architecture design. In the file attached named - ConceptualArchitecture.txt
+we have the layers. For example, we have the Web application user interface. Here we would have buttons for several functionalities such as,
+searching cities by typing in a search bar, searching a city from a map, and button for showing pollution data. Then the Weather and Pollution
+Service shows us the data that we are getting from the APIs that we are using. This data will be updated continuously.
